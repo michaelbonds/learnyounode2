@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-// read file passed as second argument, 
+// read file passed as third argument, 
 // passing a callback function(for async purposes).
 fs.readFile(process.argv[2].toString(), function(err, data) {
   
