@@ -17,7 +17,7 @@ fs.readFile(process.argv[2].toString(), function(err, data) {
       // cast String to data, because it is a "buffer" object. 
       // split at new line ('\n') and iterate over to count.
       String(data).split('\n').forEach(function(){
-        num += 1; 
+        num ++; 
       });
 
       // log number to console to verify with learnyounode.
